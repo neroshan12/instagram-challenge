@@ -1,40 +1,61 @@
-Instagram Challenge
+# Instafake Challenge
 ===================
 
-## Instructions
-
-* Challenge time: one weekend
-* Feel free to use Google, your notes, books, etc., but work on your own
-* If you refer to the solution of another coach or student, please put a link to that in your README
-* If you have a partial solution, **still check in a partial solution**
-* You must submit a pull request to this repo with your code by 9am Monday morning
 
 ## Task
 
-Build Instagram: Simple huh!
+The challenge is to  build Instagram using Rails. I will need to create **users** who can post **pictures**, write **comments** on pictures and **like** a picture. And style it like Instagram's website.
 
-Your challenge is to build Instagram using Rails. You'll need **users** who can post **pictures**, write **comments** on pictures and **like** a picture. Style it like Instagram's website (or more awesome).
+## My solution
 
-Bonus if you can add filters!
+
+## User stories
+As a user,
+So I can create an Instafake account,
+I'd like to be able to sign up for an account.
+
+As a user,
+So I can use the Instafake website,
+I'd like to be able to log in.
+
+As a user,
+So I can keep my details secure,
+I'd like to be able to log out.
+
+As a user,
+So I can share photos,
+I would like to upload images.
+
+As a user,
+So I can see the photos I've uploaded,
+I'd like to view the images I've posted.
+
+As a user,
+So I can see other people's photos,
+I'd like to see a feed of everyone's photos.
+
+As a user,
+So I can comment on a photo,
+I'd like to be able to comment on photos.
+
+As a user,
+So I can respond to comments,
+I'd like to be able to comment on my own photos.
+
 
 ## How to start
+git clone https://github.com/neroshan12/instagram-challenge.git
+bundle install
+bin/rails db:create
+bin/rails db:migrate
+bundle exec rspec
 
-1. Produce some stories, break them down into tasks, and estimate
-2. Fork this repo, clone, etc
-3. Initialize a new rails project
+## Built with
+- Ruby
+- Rails
+- RSpec
+- Capybara
 
-Remember to proceed in small steps! Getting confused? Make the steps even smaller.
+## Author
 
-## Code Quality
-
-For linting, you can use the `.rubocop.yml` in this repository (or your own!).
-You'll need these gems:
-
-```ruby
-gem "rubocop", "0.48.1"
-gem "rubocop-rails"
-```
-
-You can also lint Javascript, CSS, and ERB — feel free to research this. These
-will help you to train yourself to produce cleaner code — and will often alert
-you to mistakes or mishaps!
+Nero Siva
